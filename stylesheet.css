@@ -63,6 +63,10 @@ body:before, body:after {
     margin: 50px auto;
 }
 
+#quote h2 {
+    font-weight: 200;
+}
+
 #proj, #name h1 {
     width: 35%;
     margin-left: auto;
