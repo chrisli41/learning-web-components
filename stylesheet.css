@@ -55,6 +55,7 @@ body:before, body:after {
 #title h2{
     letter-spacing: 0.05em;
     text-transform: capitalize;
+    font-weight: 200;
 }
 
 #quote {
