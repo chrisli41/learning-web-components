@@ -1,0 +1,127 @@
+html {
+    background: url('images/halftone.png');
+}
+
+body:before, body:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.page-wrapper {
+    width: 99%;
+    background:
+        url('images/img-lg-vert-border.png') repeat-y top left,
+        url('images/img-lg-vert-border.png') repeat-y right;
+    background-size: .75em;
+    margin: 0.5em auto;
+    padding: 0 2px;
+}
+
+.page-wrapper:before {
+    content: "";
+    height: 20px;
+    background:
+            url('images/img-lg-horiz-border.png') repeat-x 0 -2px;
+    background-size: 60em;
+    display: block;
+}
+
+.page-wrapper:after, #title:after {
+    content: "";
+    height: 20px;
+    background:
+            url('images/img-lg-horiz-border.png') repeat-x bottom left;
+    background-size: 60em;
+    display: block;
+    position: relative;
+
+}
+
+#name, #title, #quote {
+    text-align: center;
+}
+
+#fish {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    width: 20%;
+    height: auto;
+}
+
+#title h2{
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+
+#quote {
+    width: 35%;
+    margin: 50px auto;
+}
+
+#proj, #name h1 {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#proj h3, #name h1{
+    font-size: 2.5em;
+    font-family: "grecian-light-face",sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    margin:  0.5em auto 0.55em;
+    padding: 0.5em 0 0.55em;
+    line-height: 1.5;
+    background:
+            url('images/img-lg-horiz-border.png') repeat-x top right,
+            url('images/img-lg-horiz-border.png') repeat-x bottom left;
+    background-size: 15em;
+}
+
+.outer {
+    display: inline-block;
+    zoom: 1;
+    position: relative;
+    clip: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.container {
+    position: relative;
+    text-align: right;
+    white-space: nowrap;
+    margin-bottom: 1em;
+}
+
+.filler {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 2px dotted #333;
+    height: 50%;
+}
+.proj-number {
+    font-family: "grecian-light-face",sans-serif;
+    background: url('images/halftone.png');
+    float: left;
+    margin-right: 20px;
+    padding-right: 4px;
+    position: relative;
+}
+.proj-name {
+    color: black;
+    font-family: "grecian-light-face",sans-serif;
+    background: url('images/halftone.png');
+    padding-left: 4px;
+    position: relative;
+    text-decoration: none;
+}
+
+.proj-name:hover {
+    color: #f7644d;
+}
