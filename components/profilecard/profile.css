@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+
+.page-wrapper {
+    background-color: #fff;
+    width: 30%;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #693;
+    text-align: center;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: 'Abril Fatface', Georgia, serif;
+}
+
+.intro .small {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: .06em;
+    font-size: 30px;
+    line-height: 32px;
+
+    display: block;
+}
+
+.intro h1 em {
+    display: block;
+    font-style: normal;
+}
+
+.intro h1 i {
+    text-transform: lowercase;
+    letter-spacing: 0;
+    color: #7a6;
+}
+
+.aboutme-heading {
+    margin-top: 2em;
+    font-family: 'Abril Fatface', sans-serif;
+    padding: 2em;
+}
+
+.aboutme:before {
+    display: block;
+    content: attr(data-numbered);
+    font-size: 2.6em;
+    line-height: .8;
+    position: absolute;
+    left: 0;
+    letter-spacing: 0.01em;
+    margin-left: 0.2em;
+}
+
+.aboutme{
+    display: inline-block;
+    line-height: 1.1;
+    margin-top: 0;
+    font-size: 2.4em;
+    position:relative;
+    padding-left:4.5em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #252525;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.images {
+    margin-left: 0.2em;
+    padding: 0 2em 1em 2em;
+    float: left;
+}
+
+.text {
+    margin-top: -1.5em;
+    margin-left: 0.2em;
+    padding: 0 2em 2em 2em;
+    font-family: 'Playfair Display', sans-serif;
+    clear: both;
+}
