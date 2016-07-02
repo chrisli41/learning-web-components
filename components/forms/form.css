@@ -98,3 +98,7 @@ form input:focus, form label:active + input {
     letter-spacing: 1px;
     margin: 40px auto;
 }
+
+.button:hover {
+    background: #1478b1;
+}
