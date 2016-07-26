@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <link href="question.css" type="text/css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
+
+    <h3>Your Favorite Ice Cream Flavor</h3>
+    <div class="page-wrapper">
+        <form>
+            <input type="radio" name="flavor" id="Chocolate" value="Chocolate"/><label for="Chocolate"> Chocolate</label><br>
+            <input type="radio" name="flavor" id="Vanilla" value="Vanilla"/><label for="Vanilla"> Vanilla</label><br>
+            <input type="radio" name="flavor" id="Strawberry" value="Strawberry"/><label for="Strawberry"> Strawberry</label><br>
+            <input type="radio" name="flavor" id="Mint Chocolate Chip" value="Mint Chocolate Chip"/><label for="Mint Chocolate Chip"> Mint Chocolate Chip</label><br>
+            <input type="radio" name="flavor" id="Other" value="Other"/><label for="Other"> Other</label>
+            <textarea rows="4" cols="50">
+                Other: Your Favorite Ice Cream Flavor
+            </textarea>
+        </form>
+
+        <input class="button" type="submit" value="Submit">
+    </div>
 
 </body>
 </html>
