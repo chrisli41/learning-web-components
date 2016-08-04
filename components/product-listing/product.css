@@ -1,0 +1,263 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #47a3da;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container > header {
+    width: 90%;
+    max-width: 69em;
+    margin: 0 auto;
+    padding: 2.875em 1.875em 1.875em;
+}
+
+.clearfix::after, .clearfix::before {
+    clear:both;
+    content: ' ';
+    display: table;
+}
+
+#product-container {
+    position: relative;
+    width: 100%;
+    padding: 0 30px 100px 30px;
+}
+
+.product-grid {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+}
+
+.product-grid > li {
+    vertical-align: top;
+    position: relative;
+    width: 33%;
+    min-width: 340px;
+    max-width: 555px;
+    padding: 20px 2% 50px 2%;
+    text-align: left;
+    float: left;
+}
+
+.product-content {
+    border: 3px solid #47a3da;
+    position: relative;
+}
+
+.product-image {
+    width: 100%;
+    padding: 2em;
+}
+
+.product-content ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 60px;
+    width: 100%;
+    border-top: 3px solid #47a3da;
+}
+
+.product-options > li:first-child {
+    border-left: none;
+}
+
+.product-options > li {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    border-left: 3px solid #47a3da;
+    padding: 10px;
+}
+
+.product-info {
+    padding-top: 10px;
+}
+
+.product-info h3 {
+    font-weight: 100;
+}
+
+.product-info h3, .product-info span {
+    float: left;
+    width: 50%;
+    font-size: 1.8em;
+    padding: 10px 5px;
+    margin: 0;
+}
+
+.product-info span {
+    text-align: right;
+    font-weight: 700;
+}
+
+li input {
+    width: 30%;
+}
+
+.product-quantity {
+    display: table-cell;
+    width: 500px;
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.quantity {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.product-form, .product-cart {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-descrip {
+    height: 150px;
+    border-top: 3px solid #47a3da;
+}
+
+.product-descrip h4 {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.product-descrip p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+/* Shopping Cart */
+
+#shopping-container {
+    position: relative;
+    width: 70%;
+    padding: 0 30px 100px 30px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 3px solid #47a3da;
+}
+
+.cart-item-img {
+   float: left;
+    width: 15%;
+}
+
+.cart-item-info {
+    float: left;
+    width: 30%;
+}
+
+#remove {
+    background: #10689a;
+    border: none;
+    color: #fff;
+    width: auto;
+    cursor: pointer;
+    text-transform: capitalize;
+    display: block;
+    padding: 7px 15px;
+    font-size: .75em;
+    border-radius: 2px;
+    margin: 0;
+}
+
+#remove:focus {
+    outline: none;
+}
+
+#remove:hover {
+    background: #1478b1;
+    color: #fff;
+}
+
+.cart-item-info h2 {
+    margin-top: 0;
+}
+
+.cart-item-price  {
+    width: 30%;
+    float: left;
+}
+
+.cart-item-qty {
+    width: 15%;
+    float: left;
+}
+
+.cart-item-qty .quantity {
+    width: 15%;
+}
+
+.cart-item-codes {
+    float: right;
+    display: block;
+    margin: 20px 0;
+}
+
+.cart-total {
+    float: right;
+    display: block;
+    clear: both;
+    margin: 10px 0 40px 0;
+}
+
+.cart-total:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+
+.cart-checkout {
+    width: 31%;
+    margin: 20px auto;
+    display: block;
+}
+
+
+#checkout, #keepshopping {
+    background: #10689a;
+    border: none;
+    color: #fff;
+    width: auto;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin: 10px;
+
+}
+
+#checkout:hover, #keepshopping:hover {
+    background: #1478b1;
+}
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+
+    <link href="product.css" type="text/css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1b56fbce33.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class="container">
+    <header class="clearfix">
+        <h1>Your Shopping Cart</h1>
+        <nav></nav>
+    </header>
+    <div id="shopping-container">
+        <div class="cart-item">
+            <div class="cart-item-img">
+                <img src="http://placehold.it/150x150">
+            </div>
+            <div class="cart-item-info">
+                <h2>Item Name</h2>
+                <button type="button" id="remove">Remove</button>
+            </div>
+            <div class="cart-item-price">
+                <span>Price: $</span>
+            </div>
+            <div class="cart-item-qty">
+                <form>
+                    <label for="quantity">Quantity: </label>
+                    <input type="text" class="quantity" id="quantity" placeholder="1">
+                </form>
+            </div>
+        </div>
+        <div class="cart-item-codes">
+            <label for="code">Promo Code: </label>
+            <input type="text" class="code" id="code" placeholder="Promo Code">
+        </div>
+        <div class="cart-total">
+            <span>Subtotal: $</span>
+        </div>
+        <div class="cart-checkout">
+            <button type="button" id="checkout">Check Out</button>
+            <button type="button" id="keepshopping">Keep Shopping</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

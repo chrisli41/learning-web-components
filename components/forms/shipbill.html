@@ -3,8 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="shipbill.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
+    <div class="page-wrapper">
+        <form>
+            <h1>Billing Information</h1>
+            <label class="label" for="first_name_bill">First Name</label>
+            <input class="input" type="text" id="first_name_bill" name="first_name_bill" placeholder="John">
+
+            <label class="label" for="last_name_bill">Last Name</label>
+            <input class="input" type="text" id="last_name_bill" name="last_name_bill" placeholder="Doe">
+
+            <label class="label" for="address_bill">Address</label>
+            <input class="input" type="text" id="address_bill" name="address_bill" placeholder="123 Street">
+
+            <label class="label" for="city_bill">City</label>
+            <input class="input" type="text" id="city_bill" name="city_bill">
+
+            <label class="label" for="country_bill">Country</label>
+            <input class="input" type="text" id="country_bill" name="country_bill">
+
+            <h1>Shipping Information</h1>
+            <label class="label" for="first_name_ship">First Name</label>
+            <input class="input" type="text" id="first_name_ship" name="first_name_ship" placeholder="John">
+
+            <label class="label" for="last_name_ship">Last Name</label>
+            <input class="input" type="text" id="last_name_ship" name="last_name_ship" placeholder="Doe">
+
+            <label class="label" for="address_ship">Address</label>
+            <input class="input" type="text" id="address_ship" name="address_ship" placeholder="123 Street">
+
+            <label class="label" for="city_ship">City</label>
+            <input class="input" type="text" id="city_ship" name="city_ship">
+
+            <label class="label" for="country_ship">Country</label>
+            <input class="input" type="text" id="country_ship" name="country_ship">
+
+            <input type="checkbox" name="match" id="match" value="match"/>shipping information is the same as billing
+            <input class="button" type="submit" value="Submit Your Information">
+        </form>
+
+    </div>
 </body>
 </html>

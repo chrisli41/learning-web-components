@@ -55,7 +55,7 @@ form input {
 }
 
 
-form input:focus, form label:active + input {
+form input:focus, form label:active + input, textarea:focus {
     outline: none;
     border: 3px solid #10689a;
 }
@@ -97,4 +97,9 @@ form input:focus, form label:active + input {
 
 .button:hover {
     background: #1478b1;
+}
+
+.button:focus, .button:active + input {
+    outline: none;
+    border: none;
 }

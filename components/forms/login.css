@@ -65,10 +65,11 @@ form:after {
 }
 
 
-form input:focus, form label:active + input {
+#email:focus, #password:focus {
     outline: none;
     border: 3px solid #10689a;
 }
+
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: #10689a;
