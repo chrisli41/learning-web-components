@@ -156,7 +156,7 @@ li input {
 .cart-item {
     width: 100%;
     height: 200px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 10px;
     border-bottom: 3px solid #47a3da;
 }
@@ -214,29 +214,25 @@ li input {
 
 .cart-item-codes {
     float: right;
-    display: block;
     margin: 20px 0;
 }
 
 .cart-total {
     float: right;
     display: block;
-    clear: both;
-    margin: 10px 0 40px 0;
-}
-
-.cart-total:after {
-    content: " ";
-    display: block;
-    height: 0;
-    clear: both;
+    clear: right;
+    margin: 0 0 40px 0;
 }
 
 
 .cart-checkout {
-    width: 31%;
+    width: 35%;
     margin: 20px auto;
     display: block;
+}
+
+.clearfix {
+    clear: both;
 }
 
 
